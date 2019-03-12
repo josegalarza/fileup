@@ -1,0 +1,9 @@
+API endpoints:
+ GET  /             : Returns documentation.
+ POST /             : Uploads a file and returns its hash.
+                      Use: curl josegalarza.pythonanywhere.com -F file=@file/to/upload.ext
+                      Or install and use 'fup' client.
+ GET  /<hash_code>  : Returns content from uploaded file related to the hash.
+ GET  /files        : Returns list of files.
+ GET  /help         : Returns documentation.
+ GET  /install | sh : Install 'fup' client.
