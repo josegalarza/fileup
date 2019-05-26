@@ -6,7 +6,7 @@ import random
 from flask import Flask, request, redirect
 
 # Config
-HOST = "0.0.0.0" # "josegalarza.pythonanywhere.com"
+HOST = "0.0.0.0"
 PORT = 6666
 DOC_FILE = 'doc.txt'
 FILES_DIR = 'files'
