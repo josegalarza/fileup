@@ -1,4 +1,5 @@
 # fileup
+
 File store web service
 
 ## Abstract
@@ -12,17 +13,17 @@ Fileup is a web service that can be used to upload/download files.
 3. The web service returns a text response with an hash UR, which can be used to download the file.
 
 ```
-$ curl "http://localhost:6666/" -F file=@file-to-upload
-$ http://localhost:6666/h45hc0d3
+curl "http://localhost:6666/" -F file=@file-to-upload
+http://localhost:6666/h45hc0d3
 ```
 
 ### Server
 
 ```
 # Clone repo
-$ git clone git@github.com:josegalarza/fileup.git
+git clone git@github.com:josegalarza/fileup.git
 
 # Run server
-$ ./fileup/server.py
-$ Fileup running in localhost:6666
+./fileup/server.py
+Fileup running in localhost:6666
 ```
